@@ -1,0 +1,84 @@
+.item{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.allProducts{
+    width: 268px;
+    height: 62px;
+    
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    line-height: 130%;
+    align-items: Left;
+    vertical-align: Top;
+    letter-spacing: 3%;
+    margin-top: 79px;
+}
+
+ .form{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 30px;
+}
+
+.form p{
+    
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    line-height: 130%;
+    align-items: Left;
+    vertical-align: 'Top';
+    letter-spacing: 3%;
+    left: 30px;
+    margin-top: 88px;
+}
+
+.form input{
+    width: 103px;
+    height: 42px;
+    background-color: 2px solid black;
+    color: #ACACAC;
+    
+    border-radius: 10px;
+    padding-left: 5px;
+    left: 112px;
+    margin-top: 81px;
+}
+.form select{
+    width: 103px;
+    height: 42px;
+    background-color: 2px solid black;
+    color: #ACACAC;
+    text-align: start;
+    border-radius: 10px;
+    padding-left: 5px;
+    left: 112px;
+    margin-top: 81px;
+}
+.form .discounted_paragraf p{
+    width: 200px;
+    height: 26px;
+}
+
+.form .discounted {
+    width: 40px;
+    height: 40px;
+}
+
+.item .sorted_paragraf p{
+    width: 219px;
+    height: 40px;
+    margin-left: 91px;
+    padding-left: 20px;
+}
+/*
+.form .sortedsorted_paragraf p {
+    width: 219px;
+    height: 40px;
+    margin-left: 91px;
+}
+*/

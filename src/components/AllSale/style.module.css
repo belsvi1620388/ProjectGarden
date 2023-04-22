@@ -1,0 +1,75 @@
+.item{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.saleProducts{
+    width: 411px;
+    height: 52px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 3%;
+    margin-left: 30px;
+    margin-right: 995px;
+    margin-top: 79px;
+    color: black;
+}
+
+ .form{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 30px;
+}
+
+.form p{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    line-height: 130%;
+    align-items: Left;
+    vertical-align: 'Top';
+    letter-spacing: 3%;
+    margin-left: 24px;
+    margin-top: 81px;
+}
+
+.form input{
+    width: 103px;
+    height: 42px;
+    background-color: 2px solid black;
+    color: #ACACAC;
+    text-align: start;
+    border-radius: 10px;
+    padding-left: 5px;
+    left: 112px;
+    margin-top: 81px;
+}
+
+.form .sortedsorted_paragraf input {
+    width: 219px;
+    height: 40px;
+    margin-left: 91px;
+}
+
+.form select{
+    width: 103px;
+    height: 42px;
+    background-color: 2px solid black;
+    color: #ACACAC;
+    text-align: start;
+    border-radius: 10px;
+    padding-left: 5px;
+    left: 112px;
+    margin-top: 81px;
+}
+
+.block{
+    max-width: 1400px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr;
+    gap: 30px 30px 30px;
+    margin-top: 40px;
+    
+}

@@ -1,0 +1,73 @@
+.container{
+    width: 1440px;
+    height: 933px;
+    background-color: white;
+    position: absolute;
+    margin-top: 430px;
+}
+
+.container .wrapper p{
+    width: 167px;
+    height: 52px;
+    
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    color: black;
+    margin-left: 32px;
+    margin-right: 645px;
+    margin-top: 40px;
+    bottom: 25px;
+}
+
+.container .phone p{
+    width: 649px;
+    height: 91px;
+    
+    font-size: 70px;
+    line-height: 91px;
+    font-weight: 700;
+    color: black;
+    margin-left: 32px;
+    margin-right: 160px;
+    margin-top: 50px;
+    bottom: 32px;
+} 
+
+.container .address p{
+    position: absolute;
+    width: 167px;
+    height: 52px;
+    
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    color: black;
+    margin-left: 844px;
+    margin-right: 425px;
+    top: 45px;
+    bottom: 25px;
+}
+
+.container .street a{
+    position: absolute;
+    width: 467px;
+    height: 50px;
+    
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    color: black;
+    margin-left: 844px;
+    margin-right: 32px;
+    top: 125px;
+    bottom: 25px;
+}
+
+.container iframe{
+    margin-left: 30px;
+    margin-right: 16px;
+    margin-top: 80px;
+    bottom: 38px;
+}
+

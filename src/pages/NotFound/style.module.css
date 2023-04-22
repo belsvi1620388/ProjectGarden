@@ -1,0 +1,18 @@
+.container{
+    width: 1350px;
+    height: 625px;
+        display: flex;
+        flex-direction: column;
+        margin: 40px auto;
+        justify-content: center;
+        align-items: center;
+       /* background-image: url("notFound.png");*/
+        background-repeat: repeat-x;
+        
+    
+}
+
+.container img{
+    height: 600px;
+    opacity: 50%;
+}

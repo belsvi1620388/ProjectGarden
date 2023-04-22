@@ -1,0 +1,108 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1320px;
+    height: 70px;
+    padding: 19px 10px 10px 10px;
+    margin: 10px 10px 40px 10px;
+    gap: 5px;
+}
+
+.nav a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    border: 2px solid white;
+    padding-left: 25px;
+    font-family: 'Montserrat';
+    font-style: 'Medium';
+    font-size: 16px;
+    cursor: pointer; 
+}
+
+.nav a.active{
+    color: rgb(208, 14, 182);
+}
+
+.nav img{
+    height: 70px;
+    left: 28px; 
+    background-size: cover;
+}
+
+.button{
+    width: 125px;
+    height: 49px;
+    border: none;
+    background-color: #339933;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Monserrat', 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    margin-right: 300px;
+    cursor: pointer;
+}
+/*
+.nav img:nth-child(0){
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 50px;
+}
+*/
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 100%;
+}
+
+.nav_btn{
+    display: none;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    color: rgb(89, 2, 2);
+    font-size: 30px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .nav{
+        justify-content: flex-end;
+        position: relative;
+        
+    }
+    .links{
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        background-color: #5e344a;
+        height: auto;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity transform;
+        transition-duration: 0.5s;
+        padding: 10px;
+        gap: 5px;
+        align-items: stretch;
+    }
+    .links_show{
+        transform: translateY(100%);
+        opacity: 1;
+    }
+    .nav_btn{
+        display: block;
+    }
+
+    .links_show a{
+        pointer-events: auto;
+    }
+}
+

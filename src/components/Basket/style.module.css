@@ -1,0 +1,113 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    grid-template-rows: 200px;
+    gap: 20px 20px;
+}
+
+.container .cart{
+    width: 312px;
+    height: 52px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 3%;
+    margin-left: 31px;
+    margin-top: 70px;
+}
+
+.link a{
+    width: 153px;
+    height: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 630px;
+    margin-top: 45px;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 3%;
+    text-decoration: none;
+    color: black;
+}
+.container .title .formTitle{
+    display: block;
+    flex-direction: column;
+    width: 496px;
+    height: 396px;
+    border: 2px solid black;
+    margin-left: 160px;
+    margin-top: 200px;
+    border-radius: 21px;
+    
+    
+}
+
+.container .title .formTitle p{
+    width: 198px;
+    height: 36px;
+    font-weight: 600;
+    font-size: 28px;
+    
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 47px;
+   
+}
+
+.total p{
+    display: inline;
+    width: 62px;
+    height: 31px;
+    font-weight: 500;
+    font-size: 24px;
+    margin-left: 25px;
+    margin-right: 225px;
+    margin-top: 47px;
+    line-height: 31px;
+    letter-spacing: 3%;
+}
+
+.number input{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 446px;
+    height: 73px;
+    border: 2px solid #929292;
+    background-color: white;
+    color: #929292;
+    border-radius: 20px;
+    
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 3%;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 25px;
+    padding-left: 25px;
+    margin-top: 55px;
+}
+
+.number button{
+    width: 446px;
+    height: 73px;
+    border: 2px solid #8b8b8b;
+    background-color: #339933;
+    color: white;
+    border-radius: 20px;
+    
+    font-size: 28.74px;
+    line-height: 22px;
+    letter-spacing: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 51px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 25px;
+    margin-top: 25px;
+    padding-top: 25px;
+    
+}

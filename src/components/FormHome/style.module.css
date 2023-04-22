@@ -1,0 +1,71 @@
+.container{
+    background-color: #339933;
+    width: 1440px;
+    height: 476px;
+    margin-top: 210px ;
+}
+
+.container .image img{
+    position: absolute;
+    width: 422px;
+    height: 422px;
+    margin-left: 91px;
+    margin-right: 927px;
+    top: 1400px;
+    bottom: 27px; 
+}
+
+.container .title p {
+    position: absolute;
+    width: 469px;
+    height: 159px;
+    
+    font-weight: 700;
+    font-size: 80px;
+    letter-spacing: 3%;
+    margin-left: 713px;
+    margin-right: 258px;
+    top: 1390px;
+    color: white;
+}
+
+.container .form input{
+    position: absolute;
+    width: 473px;
+    height: 75px;
+    border: 2px solid #8b8b8b;
+    background-color: white;
+    color: #6C6C6C;
+    border-radius: 20px;
+    font-size: 28.74px;
+    line-height: 22px;
+    letter-spacing: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 51px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 712px;
+    margin-right: 255px;
+    top: 1550px;
+    padding-left: 15px;
+}
+
+.container .form button{
+    position: absolute;
+    width: 473px;
+    height: 75px;
+    border: 2px solid #8b8b8b;
+    background-color: #339933;
+    color: white;
+    border-radius: 20px;
+    font-weight: 700;
+    
+    font-size: 28.74px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 712px;
+    margin-right: 255px;
+    top: 1700px;
+}

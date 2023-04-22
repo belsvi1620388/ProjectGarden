@@ -1,0 +1,33 @@
+/*
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-template-rows: 320px;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.container p{
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Monserrat', 'Arial Narrow Bold', sans-serif;
+    margin-left: 31px;
+    margin-top: 50px;
+}
+*/
+
+.header{
+    font-weight: 700;
+    font-size: 40px;
+    margin-left: 31px;
+    margin-top: 91px;
+    
+    font-family: 'Monserrat', 'Arial Narrow Bold', sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
+    margin-bottom: 80px;
+}
